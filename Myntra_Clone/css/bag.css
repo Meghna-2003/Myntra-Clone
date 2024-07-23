@@ -1,0 +1,114 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bag-page{
+  display: flex;
+}
+.bag-items-container{
+  width:50%;
+}
+.bag-price-summary{
+  width:50%;
+}
+.bag-item-container{
+  display: flex;
+  margin: 30px;
+}
+.bag-details-container{
+  margin: 30px;
+}
+.right-part{
+  margin-left: 10px;
+}
+.company-name{
+  font-size:16px;
+  color: #535766;
+  font-weight: 600;
+}
+.item-name{
+  font-size: 12px;
+  color: #535766;
+}
+.discountprice{
+  font-size: 14px;
+  font-weight: 700;
+}
+.originalprice{
+  font-size: 11px;
+  text-decoration: line-through;
+  color: #535766;
+}
+.percent-discount{
+  font-size: 14px;
+  color: #535766;
+}
+.return-policy{
+  font-size: 14px;
+  margin-top: 4px;
+}
+.delivery-date{
+  margin-top: 2px;
+  font-size: 12px;
+  color: #535766;
+}
+.date-style{
+  color:rgb(32, 239, 94);
+}
+.quit-button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  left:50%;
+}
+.price-details{
+  color: #535766;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.price-header{
+  display: flex;
+  justify-content:space-between;
+  height:20px;
+}
+.price-footer{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 8px;
+}
+.total-text{
+  color: #535766;
+  font-size: 12px;
+  font-weight: 600;
+}
+.total-price{
+  color: #535766;
+  font-size: 12px;
+  font-weight: 600;
+}
+.discount-price{
+  color: rgb(7, 164, 85);
+}
+.total-amount-text{
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+.total-amount-price{
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.place-order{
+  width: 100%;
+  margin-top: 8px;
+  height:25px;
+  background-color: #eb008b;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
